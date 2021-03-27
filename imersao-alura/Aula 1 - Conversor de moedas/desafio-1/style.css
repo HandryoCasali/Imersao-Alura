@@ -1,0 +1,69 @@
+body {
+    font-family: 'Roboto Mono',monospace;
+    background-image: url('https://assets-global.website-files.com/5cc70a3a0871f750442da9d5/5fbfa91cdd7bcc8a7f574ec9_entenda-como-a-variacao-da-moeda-estrangeira-pode-impactar-sua-vida.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  .page-title {
+    text-shadow: 2px 2px  #d38282;
+  }
+
+  .logo-imersao{
+    position: absolute;
+    width: 200px;
+    bottom: 10px;
+    left: 10px;
+  }
+  
+  .conversor {
+    display: block;
+    text-align: center;
+    margin-top: 40px;
+  }
+
+  .conversor select {
+    width: 85px;
+    font-size: 20px;
+    padding: 3px;
+    border-radius: 10px;
+  }
+
+  .conversor input:not(#resultado){
+    font-size: 20px;
+    padding: 10px;
+    width: 160px;
+    border-radius: 10px;
+    border: none;
+    text-align: right;
+  }
+
+  .conversor input:last-child {
+    position: absolute;
+    font-size: 20px;
+    padding: 10px;
+    width: 150px;
+    border-radius: 10px;
+    border: none;
+    background-color: lightgreen;
+    margin: 0 0 0 20px;
+  }
+
+  .botao{
+    width: 50px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: green;
+    border: none;
+    padding: 3px;
+  }
+
+  .botao:active{
+    transform: scale(0.8);
+    background-color: darkgreen;
+  }
+
